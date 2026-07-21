@@ -6,47 +6,8 @@
 - 運営: MuscleLove
 - テーマ: 女子プロレスの最新情報を毎日配信するファンサイト
 
-## 対象団体
-- **STARDOM**（スターダム）: 日本最大の女子プロレス団体。ブシロード傘下
-- **MARIGOLD**（マリーゴールド）: 2024年旗揚げ。ロッシー小川率いる新興団体
-- **WWE**: 世界最大のプロレス団体。日本人女子レスラーが活躍
-- **AEW**: WWE対抗の米国団体。リホ、白川未奈が参戦
-- **その他**: TJPW（東京女子）、仙女、SEAdLINNNG、アイスリボンなど
-
-## 選手リスト（記事執筆時の参考）
-
-### STARDOM
-| 選手名 | 英語名 | 特徴 |
-|--------|--------|------|
-| 中野たむ | Tam Nakano | エース。Twilight Dream |
-| スターライト・キッド | Starlight Kid | マスクウーマン。ハイフライヤー |
-| 上谷沙弥 | Saya Kamitani | フェニックス・スプラッシュ |
-| なつぽい | Natsupoi | エンターテイナー |
-| 朱里 | Syuri | 格闘技バックグラウンド |
-| 舞華 | Maika | パワーファイター |
-
-### MARIGOLD
-| 選手名 | 英語名 | 特徴 |
-|--------|--------|------|
-| 岩谷麻優 | Mayu Iwatani | 二冠王者。ムーンサルト |
-| 林下詩美 | Utami Hayashishita | パワー系。元スターダム |
-| 彩羽匠 | Sareee | 至宝。ジャーマン |
-| 青野未来 | Miku Aono | 若手ホープ |
-| ビクトリア弓月 | Victoria Yuzuki | 成長株 |
-| 桜井麻衣 | Mai Sakurai | テクニシャン |
-
-### WWE
-| 選手名 | 英語名 | 特徴 |
-|--------|--------|------|
-| イヨ・スカイ | IYO SKY | WWE女子王者。Damage CTRL |
-| ASUKA | Asuka | グランドスラム。NXT最長防衛 |
-| カイリ・セイン | Kairi Sane | 海賊姫。カブキ・ウォリアーズ |
-
-### AEW
-| 選手名 | 英語名 | 特徴 |
-|--------|--------|------|
-| 白川未奈 | Mina Shirakawa | 元スターダム |
-| リホ | Riho | 初代AEW女子王者 |
+## 掲載対象（ロスター）
+記事対象の団体・選手リストは必ず `references/roster.md` を読んで参照すること。リストの追加・更新もそのファイルに対して行う。
 
 ## 記事テンプレート
 
@@ -150,6 +111,7 @@ h1{font-size:1.8rem;font-weight:900;line-height:1.4;margin-bottom:24px}
     <div style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;">
       <a href="https://x.com/MuscleGirlLove7" target="_blank" rel="noopener" style="display:inline-block;padding:10px 18px;background:#1d9bf0;color:#fff;border-radius:6px;font-weight:800;text-decoration:none;">X @MuscleGirlLove7</a>
       <a href="https://www.patreon.com/MuscleLove" target="_blank" rel="noopener" style="display:inline-block;padding:10px 18px;background:#ff424d;color:#fff;border-radius:6px;font-weight:800;text-decoration:none;">Patreon 限定コンテンツ</a>
+      <a href="https://musclelove-games.vercel.app/?utm_source=blog&amp;utm_medium=promo_card&amp;utm_campaign=joshi-prowrestling-navi" target="_blank" rel="noopener" style="display:inline-block;padding:10px 18px;background:#22c55e;color:#0b1220;border-radius:6px;font-weight:800;text-decoration:none;">🎮 無料ゲーム95本</a>
     </div>
   </div>
 </section>
@@ -226,7 +188,7 @@ h1{font-size:1.8rem;font-weight:900;line-height:1.4;margin-bottom:24px}
 - 団体名・選手名は正確に
 - 事実に基づいた内容（推測は明記）
 - SEO: タイトル60文字以内、description120文字以内
-- 全記事とindex.htmlのフッター直前に MuscleLove広告カード（ML_PROMO_CARDマーカー）を必ず含める
+- 全記事とindex.htmlのフッター直前に MuscleLove広告カード（ML_PROMO_CARDマーカー）を必ず含める。広告カードにはX / Patreon / ゲームポータルの3導線を必ず入れる
 
 ### 注意事項
 - 選手の写真は使用しない（著作権）。Unsplashのフリー画像のみ使用
